@@ -47,7 +47,7 @@ jobs:
         run: |
           julia --project=docs/ -e '
             using Pkg
-            println(PackageSpec(path=pwd())
+            println(PackageSpec(path=pwd()))
             Pkg.develop(PackageSpec(path=pwd()))
             Pkg.instantiate()'
       - uses: julia-actions/julia-buildpkg@v1
