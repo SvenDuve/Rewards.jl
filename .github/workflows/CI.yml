@@ -20,7 +20,6 @@ jobs:
         version:
           - '1.9'
         os:
-          - ubuntu-latest
           - macos-latest
           - windows-latest
         arch:
